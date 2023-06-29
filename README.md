@@ -26,10 +26,3 @@ This file has Survey Questions and response option and 3csv files:
  2.  dim_respondents.csv
  3.  fact_survey_responses.csv
 
-
-
-
-This repository contains Sample survey questions and response options and 3 CSV files:
-1. dim_respondents
-2. dim_cities
-3. fact_survey_responses
