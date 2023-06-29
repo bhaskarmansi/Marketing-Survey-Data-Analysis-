@@ -1,0 +1,51 @@
+# CREATED DATABASE AND TABLES
+  create database if not exists fnb_db;
+  use fnb_db;
+  
+  drop table if exists dim_cities;
+  create table dim_cities (
+  city_id varchar(20) PRIMARY KEY,
+  city varchar(20),
+  Tier varchar(20)
+  );
+
+CREATE TABLE dim_resposents (	
+respondent_id INTEGER PRIMARY KEY,
+name varchar(50),
+Age	varchar(50),
+Gender varchar(50),
+City_ID varchar(20)
+);
+
+CREATE TABLE fact_survey_responses (
+response_id INTEGER PRIMARY KEY,
+respondent_id INTEGER,
+Consume_frequency varchar(80),
+Consume_time varchar(80),
+Consume_reason varchar(80),
+Heard_before varchar(80),
+Brand_perception varchar(80),
+General_perception varchar(80),
+Tried_before varchar(80),
+Taste_experience INTEGER,
+Reasons_preventing_trying varchar(80),
+Current_brands	varchar(80),
+Reasons_for_choosing_brands	varchar(80),
+Improvements_desired varchar(80),
+Ingredients_expected varchar(80),
+Health_concerns	varchar(80),
+Interest_in_natural_or_organic varchar(80),
+Marketing_channels varchar(80),
+Packaging_preference varchar(80),
+Limited_edition_packaging varchar(80),
+Price_range	varchar(25),
+Purchase_location varchar(80),
+Typical_consumption_situations varchar(80));
+
+
+
+-- Imported csv files into tables 
+
+# Primary Insights
+
+-- 1. 
