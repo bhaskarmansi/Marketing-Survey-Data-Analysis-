@@ -19,3 +19,9 @@ Tools Used: SQL for primary data analysis, Power BI for visualization
 **Data Analysis:** Leveraging SQL, I performed an in-depth analysis of the survey data to uncover patterns, and trends. This analysis helped identify key factors that influence consumer behavior and preferences in the F&B industry.
 
 **Visualization:** To present the findings effectively, I utilized Power BI, a powerful data visualization tool. The visualizations include interactive dashboards, charts, and graphs to explore the data and gain a comprehensive understanding of the results.
+
+
+This repository contains Sample survey questions and response options and 3 CSV files:
+1. dim_respondents
+2. dim_cities
+3. fact_survey_responses
