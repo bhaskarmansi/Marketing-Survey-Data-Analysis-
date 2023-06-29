@@ -21,6 +21,14 @@ Tools Used: SQL for primary data analysis, Power BI for visualization
 **Visualization:** To present the findings effectively, I utilized Power BI, a powerful data visualization tool. The visualizations include interactive dashboards, charts, and graphs to explore the data and gain a comprehensive understanding of the results.
 
 
+This file has Survey Questions and response option and 3csv files: 
+ 1.  dim_cities.csv
+ 2.  dim_respondents.csv
+ 3.  fact_survey_responses.csv
+
+
+
+
 This repository contains Sample survey questions and response options and 3 CSV files:
 1. dim_respondents
 2. dim_cities
